@@ -4,7 +4,7 @@ spring:
       uri: http://119.3.25.215:8888
   redis:
     database: 0
-    host: localhost
+    host: 119.3.25.215
     port: 6379
     password: 
   session:
