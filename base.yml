@@ -1,10 +1,10 @@
 spring:
   cloud:
     config:
-      uri: http://192.168.99.100:8888
+      uri: http://119.3.25.215:8888
   redis:
     database: 0
-    host: 192.168.99.100
+    host: 119.3.25.215
     port: 6379
     password: 
   session:
@@ -27,6 +27,6 @@ logging:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.99.100:8761/eureka     
+      defaultZone: http://119.3.25.215:8761/eureka     
 
 
