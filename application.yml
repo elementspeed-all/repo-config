@@ -26,6 +26,8 @@ logging:
 #eureka客户端
 eureka:
   client:
+    register-with-eureka: true 
+    fetch-registry: true
     serviceUrl:
       defaultZone: http://119.3.25.215:8761/eureka   
 #health path
